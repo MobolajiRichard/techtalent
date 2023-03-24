@@ -2,7 +2,7 @@ import LandingPage from "./components/Landing-Page/LandingPage";
 
 function App() {
   return (
-    <div>
+    <div className="w-screen">
    <LandingPage/>
     </div>
   );
