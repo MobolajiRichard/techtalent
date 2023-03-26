@@ -6,3 +6,9 @@
     font-family: "amazing";
     src: url("./asset/Amazing\ Kids.ttf")
 }
+
+@layer components{
+    .active_button{
+        @apply p-2 bg-white rounded-md text-[#004DB3] font-bold
+    }
+}
