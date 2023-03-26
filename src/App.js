@@ -4,6 +4,7 @@ import Details1 from "./components/Details1";
 import Details2 from "./components/Details2";
 import Course from "./components/courses/Course";
 import Testimonies from "./components/testimony/Testimonies";
+import Connect from "./components/Connect";
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
    {/* <Details1/> */}
    {/* <Details2/> */}
    {/* <Course/> */}
-   <Testimonies/>
+   {/* <Testimonies/> */}
+   <Connect/>
     </div>
   );
 }
