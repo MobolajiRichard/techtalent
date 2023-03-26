@@ -1,4 +1,4 @@
-import { Description, SettingsInputAntenna, VolumeUp } from '@mui/icons-material'
+import { Description, SettingsInputAntenna, SlowMotionVideo, VolumeUp } from '@mui/icons-material'
 import image1 from '../asset/image/image1.png'
 import image2 from '../asset/image/image2.png'
 import React from 'react'
@@ -29,7 +29,7 @@ const Details1 = () => {
             <div className='flex mt-4'>
                 <div className='flex bg-white w-fit text-xs text-xs md:text-base items-center py-2  px-3  rounded-md'>
                     <div className='bg-purple-100 p-2  h-8 w-8 flex items-center justify-center'>
-                        <VolumeUp sx={{color:'#3FA96A'}} fontSize='small'/>
+                        <SlowMotionVideo sx={{color:'#9269CD'}} fontSize='small'/>
                     </div>
                     <p className='font-bold ml-2'>Recorded Classes</p>
                 </div>
