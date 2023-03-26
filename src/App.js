@@ -6,6 +6,7 @@ import Course from "./components/courses/Course";
 import Testimonies from "./components/testimony/Testimonies";
 import Connect from "./components/Connect";
 import FAQ from "./components/FAQ";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
    {/* <Course/> */}
    {/* <Testimonies/> */}
    {/* <Connect/> */}
-   <FAQ/>
+   {/* <FAQ/> */}
+   <Footer/>
     </div>
   );
 }
