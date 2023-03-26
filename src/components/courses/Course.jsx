@@ -23,7 +23,7 @@ const Course = () => {
         setCategory(cat)
     }
   return (
-    <div className="flex flex-col items-center font-satoshi bg-[#F8F9FC] overflow-x-clip px-6 ">
+    <div className="flex flex-col items-center font-satoshi bg-[#F8F9FC] overflow-x-clip px-6 mt-10">
       <p className="font-clash text-[24px] text-center md:text-start md:text-5xl md:leading-none ">
         Browse Our Popular Courses
       </p>

@@ -26,9 +26,9 @@ const FAQ = () => {
     "How do i reach out to mentors?",
     "Do we get job ready after taking courses?",
   ];
-  
+
   return (
-    <div className="flex flex-col items-center px-2 bg-[#F8F9FC] ">
+    <div className="flex flex-col items-center px-2 bg-[#F8F9FC] mt-10">
       <p className="font-clash text-[24px] md:text-[56px] text-center md:w-[70%]">
         {" "}
         Frequently Asked Questions

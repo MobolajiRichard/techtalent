@@ -5,7 +5,7 @@ import React from 'react'
 
 const Details1 = () => {
   return (
-    <div className='flex flex-col md:flex-row px-6 font-satoshi bg-[#F8F9FC] p-10'>
+    <div className='flex flex-col md:flex-row px-6 font-satoshi bg-[#F8F9FC] p-10 mt-10'>
         <div className='basis-1/2 flex flex-col items-center md:items-start'>
             <p className='font-clash text-[24px] text-center md:text-start md:text-[56px] md:leading-none'>
                 High quality video, audio & live classes

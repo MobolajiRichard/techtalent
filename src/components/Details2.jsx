@@ -3,7 +3,7 @@ import image3 from "../asset/image/image3.png";
 
 const Details2 = () => {
   return (
-    <div className="flex px-[5%] flex-col items-center md:flex-row bg-[#F8F9FC] md:items-start">
+    <div className="flex px-[5%] flex-col items-center md:flex-row bg-[#F8F9FC] md:items-start mt-10">
       <div className="basis-1/2 flex flex-col items-center md:items-start ">
         <p className="font-clash text-[24px] text-center md:text-start md:text-5xl md:leading-none ">
           This Is Why We Are Best From Others

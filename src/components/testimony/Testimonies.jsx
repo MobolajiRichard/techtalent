@@ -63,7 +63,7 @@ const Testimonies = () => {
         },
       ]
   return (
-    <div className="flex flex-col bg-[#F8F9FC] px-6 w-full">
+    <div className="flex flex-col bg-[#F8F9FC] px-6 w-full mt-10">
          <p className="font-clash text-[24px] self-center text-center md:text-start md:text-5xl md:leading-none ">
         What Our Clients Are Saying
       </p>

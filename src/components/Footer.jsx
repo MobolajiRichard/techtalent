@@ -3,7 +3,7 @@ import {ReactComponent as Discord} from '../asset/icon/discord.svg'
 
 const Footer = () => {
   return (
-    <div className="bg-[#000F24] text-white font-satoshi px-3 py-8 flex flex-col md:flex-row">
+    <div className="bg-[#000F24] text-white font-satoshi px-3 py-8 flex flex-col md:flex-row mt-10">
         <div className=" md:basis-1/4">
             <p className="font-amazing text-xl md:text-3xl">TechTime</p>
             <p className="mt-3 w-[70%] ">Reach out to us on any of our social media platform</p>

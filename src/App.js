@@ -11,15 +11,15 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="w-screen box-border overflow-x-hidden" >
-   {/* <LandingPage/>
-   <Banner/> */}
-   {/* <Details1/> */}
-   {/* <Details2/> */}
-   {/* <Course/> */}
-   {/* <Testimonies/> */}
-   {/* <Connect/> */}
-   {/* <FAQ/> */}
+    <div className="w-screen box-border overflow-x-hidden bg-[#f8f9fc]" >
+    <LandingPage/>
+    <Banner/> 
+   <Details1/>
+   <Details2/>
+   <Course/>
+   <Testimonies/>
+   <Connect/>
+   <FAQ/>
    <Footer/>
     </div>
   );
