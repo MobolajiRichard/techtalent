@@ -7,8 +7,10 @@ module.exports = {
       extend: {
         fontFamily:{
         'satoshi': [ 'Satoshi', 'sans-serif'],
-        'amazing': ['amazing', 'cursive']
-      },},
+        'amazing': ['amazing', 'cursive'],
+        'clash': ['Clash Display', 'sans-serif']
+      }
+    },
     },
     plugins: [],
   }
