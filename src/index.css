@@ -1,3 +1,5 @@
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,4 +13,19 @@
     .active_button{
         @apply p-2 bg-white rounded-md text-[#004DB3] font-bold
     }
+    .slick-dots{
+        @apply  bg-blue-200;
+    }
+}
+.slick-slide div{
+   margin: 0 0.5em;
+}
+
+.slick-dots li.slick-active button::before{
+    color: #004DB3 !important;
+}
+
+.slick-dots li button::before{
+    color: #AAC4E6 !important;
+   font-size: 10px !important;
 }
