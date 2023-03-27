@@ -1,13 +1,12 @@
 import { AccordionSummary, AccordionDetails } from "@mui/material";
-import { AddOutlined, ExpandMore, RemoveOutlined } from "@mui/icons-material";
+import { AddOutlined, RemoveOutlined } from "@mui/icons-material";
 import { useState } from "react";
-import MuiAccordion, { AccordionProps } from "@mui/material/Accordion";
+import MuiAccordion from "@mui/material/Accordion";
 import { styled } from "@mui/material/styles";
 import { ReactComponent as Left } from "../asset/icon/left.svg";
 import { ReactComponent as Zig } from "../asset/icon/zig2.svg";
 
-import { ReactComponent as Right } from "../asset/icon/right.svg";
-
+//Creating custom accordion component - Material UI
 const Accordion = styled((props) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
 ))(({ theme }) => ({
@@ -15,11 +14,15 @@ const Accordion = styled((props) => (
 }));
 
 const FAQ = () => {
+  //variable to hold the accordion state (open or close), false by default
   const [expanded, setExpanded] = useState(false);
+
+  //function to keep track of which accordion state changed
   const handleChange = (isExpanded, panel) => {
     setExpanded(isExpanded ? panel : false);
   };
 
+  //array to create six faq questions instead of manually writing it out
   const questions = [
     "Is there a free trial available?",
     "Can i change my plan later?",

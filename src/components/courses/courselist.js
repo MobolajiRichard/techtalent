@@ -11,6 +11,7 @@ import tutor5 from '../../asset/image/tutor_five.png'
 import course6 from '../../asset/image/course_six.png'
 import tutor6 from '../../asset/image/tutor_six.png'
 
+//list of courses with their details
 export const courseList = [
     {
         image: course1,

@@ -2,7 +2,6 @@ import {
   ArrowOutward,
   ChangeHistoryOutlined,
   TripOrigin,
-  FiberManualRecord,
 } from "@mui/icons-material";
 import { AvatarGroup, Avatar } from "@mui/material";
 import av1 from "../../asset/av1.png";
@@ -12,7 +11,6 @@ import av4 from "../../asset/av4.png";
 import av5 from "../../asset/av5.png";
 import hero from "../../asset/hero.png";
 import bulb from "../../asset/bulb.png";
-import { ReactComponent as Angle } from "../../asset/triangle.svg";
 import hook from "../../asset/hook.svg";
 import figma from "../../asset/figma.png";
 import wb from "../../asset/wb.png";
@@ -67,26 +65,35 @@ const Main = () => {
             </p>
           </div>
           <img
+            alt='hook'
             src={hook}
             className="absolute md:-right-[17%] md:bottom-[8%] h-[30%] w-[30%] rotate-[52deg] md:rotate-0 -bottom-10 -right-3"
           />
         </div>
       </div>
       <div className=" flex md:basis-1/2 item-center justify-center relative">
-        <img src={hero} className="w-[24em] h-[26em] md:w-[30em] md:h-[35em]" />
         <img
+          alt="hero"
+          src={hero}
+          className="w-[24em] h-[26em] md:w-[30em] md:h-[35em]"
+        />
+        <img
+          alt="bulb"
           src={bulb}
           className="absolute left-0 top-0 h-[100px] w-[100px] md:h-[200px] md:w-[200px]"
         />
         <img
+          alt="figma"
           src={figma}
           className="absolute left-0 md:left-[10%] bottom-[30%]  h-[48px] w-[48px] md:w-[70px] md:h-[70px]"
         />
         <img
+          alt="vscode"
           src={visual}
           className="absolute right-[3%] md:right-[15%] top-8  h-[48px] w-[48px] md:w-[70px] md:h-[70px]"
         />
         <img
+          alt="logo"
           src={wb}
           className="absolute right-[1%] md:right-[10%] bottom-[2%]  h-[48px] w-[48px] md:w-[70px] md:h-[70px]"
         />

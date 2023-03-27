@@ -4,13 +4,21 @@ import {
   WatchLaterOutlined,
 } from "@mui/icons-material";
 import { Avatar } from "@mui/material";
-import course1 from "../../asset/image/course_one.png";
-import tutor1 from "../../asset/image/tutor_one.png";
 
-const Card = ({image, category, title,ratings,time,lesson,name,avatar,price}) => {
+const Card = ({
+  image,
+  category,
+  title,
+  ratings,
+  time,
+  lesson,
+  name,
+  avatar,
+  price,
+}) => {
   return (
-    <div className=" bg-white  rounded-lg p-[3%]">
-      <img src={image} />
+    <div data-testid="card" className=" bg-white  rounded-lg p-[3%]">
+      <img src={image} alt="card" />
       <div className="flex justify-between items-center mt-4">
         <p className="bg-blue-100 text-[#1E5DCE] font-bold text-[10px] md:text-[12px] rounded-xl  px-4 py-1">
           {category}
