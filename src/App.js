@@ -8,19 +8,19 @@ import Connect from "./components/Connect";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
 
-
 function App() {
+  //all individual components are merged together
   return (
-    <div className="w-screen box-border overflow-x-hidden bg-[#f8f9fc]" >
-    <LandingPage/>
-    <Banner/> 
-   <Details1/>
-   <Details2/>
-   <Course/>
-   <Testimonies/>
-   <Connect/>
-   <FAQ/>
-   <Footer/>
+    <div className="w-full box-border overflow-x-hidden bg-[#f8f9fc]">
+      <LandingPage />
+      <Banner />
+      <Details1 />
+      <Details2 />
+      <Course />
+      <Testimonies />
+      <Connect />
+      <FAQ />
+      <Footer />
     </div>
   );
 }

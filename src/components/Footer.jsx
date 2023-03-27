@@ -3,7 +3,7 @@ import {ReactComponent as Discord} from '../asset/icon/discord.svg'
 
 const Footer = () => {
   return (
-    <div className="bg-[#000F24] text-white font-satoshi px-3 py-8 flex flex-col md:flex-row mt-10">
+    <div className="bg-[#000F24] text-white font-satoshi px-3 py-8 flex flex-col md:flex-row">
         <div className=" md:basis-1/4">
             <p className="font-amazing text-xl md:text-3xl">TechTime</p>
             <p className="mt-3 w-[70%] ">Reach out to us on any of our social media platform</p>
@@ -34,7 +34,7 @@ const Footer = () => {
         <div className="mt-4  md:basis-1/4">
         <p className="font-clash text-lg">Subscribe Us</p>
             <div className="flex items-center mt-2">
-                <input className="bg-[#2a2a2b] outline-none border-2 border-[#054FB3] h-12 w-[60%] placeholder-[#424141]" placeholder="nft123@gmail.com"/>
+                <input className="bg-[#2a2a2b] indent-3 outline-none border-2 border-[#054FB3] h-12 w-[60%] placeholder-[#424141]" placeholder="nft123@gmail.com"/>
                 <button className="bg-[#054FB3] text-xs px-2 h-12">Send Message</button>
             </div>
         </div>

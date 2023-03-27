@@ -3,13 +3,15 @@ import { AddOutlined, ExpandMore, RemoveOutlined } from "@mui/icons-material";
 import { useState } from "react";
 import MuiAccordion, { AccordionProps } from "@mui/material/Accordion";
 import { styled } from "@mui/material/styles";
+import { ReactComponent as Left } from "../asset/icon/left.svg";
+import { ReactComponent as Zig } from "../asset/icon/zig2.svg";
 
+import { ReactComponent as Right } from "../asset/icon/right.svg";
 
 const Accordion = styled((props) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
 ))(({ theme }) => ({
   borderBottom: `1px solid ${theme.palette.divider}`,
-  backgroundColor: '#F8F9FC'
 }));
 
 const FAQ = () => {
@@ -28,8 +30,8 @@ const FAQ = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center px-2 bg-[#F8F9FC] mt-10">
-      <p className="font-clash text-[24px] md:text-[56px] text-center md:w-[70%]">
+    <div className="flex flex-col items-center px-2  py-10  bg-white relative">
+      <p className="font-clash text-[24px] md:text-[56px] text-center md:w-[70%] ">
         {" "}
         Frequently Asked Questions
       </p>
@@ -38,19 +40,25 @@ const FAQ = () => {
         Standard Definition. While There’s No Standard Meaning For High
         Definition, Generally Any Standard Video Image
       </p>
-      <div className="md:w-[65%] mt-10">
+      <div className="md:w-[65%] mt-10 ">
         {questions.map((q, i) => (
           <Accordion
-          key={i}
+            key={i}
             expanded={expanded === `panel${i + 1}`}
-            onChange={(e, isExpanded) => handleChange(isExpanded, `panel${i + 1}`)}
+            onChange={(e, isExpanded) =>
+              handleChange(isExpanded, `panel${i + 1}`)
+            }
             square
             disableGutters
             sx={{ border: "none" }}
           >
             <AccordionSummary
               expandIcon={
-                expanded === `panel${i + 1}` ? <RemoveOutlined /> : <AddOutlined />
+                expanded === `panel${i + 1}` ? (
+                  <RemoveOutlined />
+                ) : (
+                  <AddOutlined />
+                )
               }
               aria-controls={`panel${i + 1}a-content`}
               id={`panel${i + 1}a-header`}
@@ -69,6 +77,17 @@ const FAQ = () => {
             </AccordionDetails>
           </Accordion>
         ))}
+      </div>
+      <p className=" hidden md:block h-2 w-2 bg-[#FFBE4E] rounded-full absolute bottom-[10%] right-[10%]"></p>
+      <p className="h-3 w-3 md:h-5 md:w-5 rounded-full absolute top-[2%] right-[4%] md:top-[13%] md:right-[15%] border-2 md:border-4 border-[#9143FD]"></p>
+      <div className="absolute md:block top-[25%] md:top-[30%] left-0">
+        <Zig />
+      </div>
+      <div className=" hidden md:block absolute left-0 -bottom-[10%]">
+        <Left />
+      </div>
+      <div className=" hidden md:block absolute right-0 rotate-180">
+        <Left />
       </div>
     </div>
   );

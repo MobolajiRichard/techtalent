@@ -51,16 +51,20 @@ const Main = () => {
           </button>
         </div>
         <div className="flex mt-4 items-center">
-          <AvatarGroup spacing='small'>
-            <Avatar alt="avatar" src={av1}  sizes="small" />
+          <AvatarGroup spacing="small">
+            <Avatar alt="avatar" src={av1} sizes="small" />
             <Avatar alt="avatar" src={av2} sizes="small" />
             <Avatar alt="avatar" src={av3} sizes="small" />
             <Avatar alt="avatar" src={av4} sizes="small" />
             <Avatar alt="avatar" src={av5} sizes="small" />
           </AvatarGroup>
           <div className="md:ml-3 ml-1">
-            <p className="font-clash leading-none text-sm md:text-base">255k+</p>
-            <p className="font-satoshi text-[#e7e7e7] md:text-sm text-[10px]">Previews</p>
+            <p className="font-clash leading-none text-sm md:text-base">
+              255k+
+            </p>
+            <p className="font-satoshi text-[#e7e7e7] md:text-sm text-[10px]">
+              Previews
+            </p>
           </div>
           <img
             src={hook}
