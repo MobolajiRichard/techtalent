@@ -14,4 +14,5 @@ To run test, run 'npm run test' from the terminal
 Docker
 command for docker
 run 'docker-compose up' to build an image and spin up a container
-run 'docker-compose down' to stop a container
+run 'docker-compose down' to stop and delete a container (note the images and volume will still be present)
+run 'docker-compose down --rmi all . -v' to stop and delete a container with the image and volumes.

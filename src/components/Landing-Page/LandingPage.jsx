@@ -1,6 +1,6 @@
 import Header from "./Header";
-import Main from "./Main";
-import zig from "../../asset/zig.png";
+import Main from "../../asset/image/Main";
+import zig from "../../asset/image/zig.png";
 
 const LandingPage = () => {
   return (
