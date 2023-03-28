@@ -8,7 +8,6 @@ const Connect = () => {
     >
       <p className="text-[8px] md:text-base">JOIN OUR COMMUNITY</p>
       <p className="font-clash text-[24px] text-center md:text-[56px] md:w-[70%] mb-3 mt-3">
-        {" "}
         Are you ready to connect with the future talent of the tech world
       </p>
       <p className="text-[8px] md:text-base">
