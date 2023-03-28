@@ -1,6 +1,6 @@
 ABOUT THE APPLICATION
 
-The application is built using React (A javascript framework).
+The application is built using React.
 Below are the packages/dependencies used by this app. 
 
 TailwindCSS - For styling.
