@@ -6,7 +6,7 @@ Below are the packages/dependencies used by this app.
 TailwindCSS - For styling,
 Material UI -  For Styling and Icons,
 React-slick, slick-carousel - For the testimony carousel,
-Jest & React Testsing Library - For testing the application.
+Jest & React Testing Library - For testing the application.
 
 #Test: 
 To run test, run 'npm run test' from the terminal
